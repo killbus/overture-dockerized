@@ -49,4 +49,4 @@ RUN set -eux; \
 EXPOSE 53/udp
 
 ENTRYPOINT ["entrypoint.sh"]
-CMD ["overture", "-c", "/etc/overture/config.json"]
+CMD ["overture", "-c", "/etc/overture/config.yml"]
